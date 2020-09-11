@@ -22,17 +22,17 @@ def getGradePoint(grade):
 
 def run():
   grade1 = input("Enter your course 1 letter grade: ")
-  credit1 = float(input("Enter your course 1 credit:  "))
+  credit1 = float(input("Enter your course 1 credit: "))
   point1 = float(getGradePoint(grade1))
   print (f"Grade point for course 1 is {getGradePoint(grade1)}")
 
   grade2 = input("Enter your course 2 letter grade: ")
-  credit2 = float(input("Enter your course 2 credit:  "))
+  credit2 = float(input("Enter your course 2 credit: "))
   point2 = float(getGradePoint(grade2))
   print (f"Grade point for course 2 is {getGradePoint(grade2)}")
 
   grade3 = input("Enter your course 3 letter grade: ")
-  credit3 = float(input("Enter your course 3 credit:  "))
+  credit3 = float(input("Enter your course 3 credit: "))
   point3 = float(getGradePoint(grade3))
   print (f"Grade point for course 3 is {getGradePoint(grade3)}")
 
